@@ -1,8 +1,8 @@
 import "./NewsLetter.css"
 const NewsLetter = () => {
   return (
-    <div className="container justify-content-center mt-md-3">
-      <div className="row align-items-center text-center">
+    <div className="container justify-content-center mt-md-4">
+      <div className="row align-items-center ">
         <div className="col-md-6">
           <h3>Subscribe Newsletter</h3>
           <p>I will update good news and promotion service not spam</p>

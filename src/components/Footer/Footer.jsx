@@ -2,7 +2,7 @@ import "./Footer.css"
 
 const Footer = () => {
     return (
-        <div className="container justify-content-center footer-container">
+        <div className="container justify-content-center footer-container mt-md-4">
             <div className="row g-4">
                 <div className="col-md-4">
                     <span>A</span> <span> + Studio</span>
@@ -45,9 +45,9 @@ const Footer = () => {
             </div>
             <div className="row align-items-center">
                 <div className="col-12">
-                    <img src="/assets/facebook.png" alt="social-icons" className="social-media-icon"/>
-                    <img src="/assets/twitter.png" alt="social-icons" className="social-media-icon"/>
-                    <img src="/assets/linkedin.png" alt="social-icons" className="social-media-icon"/>
+                    <img src="/assets/facebook.png" alt="social-icons" className="social-media-icon" />
+                    <img src="/assets/twitter.png" alt="social-icons" className="social-media-icon" />
+                    <img src="/assets/linkedin.png" alt="social-icons" className="social-media-icon" />
                 </div>
             </div>
         </div>

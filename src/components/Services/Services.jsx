@@ -8,7 +8,7 @@ const Services = () => {
                     <p>We build readymade websites, mobile applications, and elaborate online business services.</p>
                 </div>
                 <div className="col-md-8">
-                    <div className="row text-center gy-4 g-0">
+                    <div className="row text-center ms-5 gy-4 g-0">
                         <div className="col-md-5">
                             <div className="card mt-md-5">
                                 <div className="card-body">
