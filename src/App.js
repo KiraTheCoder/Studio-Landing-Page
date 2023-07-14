@@ -4,6 +4,9 @@ import HeroHeadline from "./components/HeroHeadline/HeroHeadline";
 import OurClients from './components/OurClients/OurClients';
 import Services from "./components/Services/Services";
 import GreatSince from "./components/GreatSince/GreatSince";
+import ClientsReview from "./components/ClientsReview/ClientsReview";
+import NewsLetter from "./components/NewsLetter/NewsLetter"
+import Footer from "./components/Footer/Footer"
 function App() {
   return (
     <>
@@ -12,6 +15,9 @@ function App() {
       <OurClients />
       <Services />
       <GreatSince />
+      <ClientsReview />
+      <NewsLetter />
+      <Footer />
     </>
   );
 }

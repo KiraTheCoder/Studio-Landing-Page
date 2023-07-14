@@ -1,0 +1,69 @@
+.clients-review-container .client-above-para {
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+}
+
+
+.clinet-img {
+    width: 24.3125rem;
+    height: 24.3125rem;
+    flex-shrink: 0;
+    background: #FEFEFE;
+    border-radius: 31.25rem 0rem 31.25rem 31.25rem;
+    box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* 
+.client-img-icon-container {
+    position: relative;
+} */
+/* 
+.client-img-icon-container img {
+    position: absolute;
+}
+
+.client-img-icon8 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+} */
+/* 
+.client-img-icon1 {
+    top:;
+    left: ;
+}
+
+.client-img-icon2 {
+    top:;
+    left: ;
+}
+
+.client-img-icon3 {
+    top:;
+    left: ;
+}
+
+.client-img-icon4 {
+    top:;
+    left: ;
+}
+
+.client-img-icon5 {
+    top:;
+    left: ;
+}
+
+.client-img-icon6 {
+    top:;
+    left: ;
+}
+
+.client-img-icon7 {
+    top:;
+    left: ;
+}
+
+.client-img-icon8 {
+    top:;
+    left: ;
+} */
