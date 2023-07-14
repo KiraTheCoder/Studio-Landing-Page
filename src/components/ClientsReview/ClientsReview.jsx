@@ -20,7 +20,14 @@ const ClientsReview = () => {
                 </div>
                 <div className="col-md-4">
                     <div className="client-img-icon-container">
-                        <img src="/assets/clinet-icon1.png" alt="" className="client-img-icon1" /><img src="/assets/clinet-icon2.png" alt="" className="client-img-icon2" /><img src="/assets/clinet-icon3.png" alt="" className="client-img-icon3" /><img src="/assets/clinet-icon4.png" alt="" className="client-img-icon4" /><img src="/assets/clinet-icon5.png" alt="" className="client-img-icon5" /><img src="/assets/clinet-icon6.png" alt="" className="client-img-icon6" /><img src="/assets/clinet-icon7.png" alt="" className="client-img-icon7" /><img src="/assets/clinet-icon8.png" alt="" className="client-img-icon8" />
+                        <img src="/assets/clinet-icon1.png" alt="client" className="client-img-icon1" />
+                        <img src="/assets/clinet-icon2.png" alt="client" className="client-img-icon2" />
+                        <img src="/assets/clinet-icon3.png" alt="client" className="client-img-icon3" />
+                        <img src="/assets/clinet-icon4.png" alt="client" className="client-img-icon4" />
+                        <img src="/assets/clinet-icon5.png" alt="client" className="client-img-icon5" />
+                        <img src="/assets/clinet-icon6.png" alt="client" className="client-img-icon6" />
+                        <img src="/assets/clinet-icon7.png" alt="client" className="client-img-icon7" />
+                        <img src="/assets/clinet-icon8.png" alt="client" className="client-img-icon8" />
                     </div>
                 </div>
             </div>
