@@ -1,14 +1,14 @@
 import "./Services.css"
 const Services = () => {
     return (
-        <div className="container justify-content-center service-container">
-            <div className="row align-items-center ">
+        <div className="container justify-content-center service-container mt-5">
+            <div className="row align-items-center ms-4 ms-md-0">
                 <div className="col-md-4">
                     <h3>How can we help your Business ?</h3>
                     <p>We build readymade websites, mobile applications, and elaborate online business services.</p>
                 </div>
-                <div className="col-md-8">
-                    <div className="row text-center ms-5 gy-4 g-0">
+                <div className="col-md-8 ms-0  mt-4 mt-md-0">
+                    <div className="row text-center ms-md-5 gy-4 g-0">
                         <div className="col-md-5">
                             <div className="card mt-md-5">
                                 <div className="card-body">

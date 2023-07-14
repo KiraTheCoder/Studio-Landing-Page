@@ -1,4 +1,26 @@
 .our-client-para {
-    width: clamp(21rem);
-    font-size: 1.125rem;
+    min-width: 12rem;
+    font-size: clamp(1rem, 100%, 2rem);
+}
+
+.clients-company-logo {
+    width: 6rem;
+    height: auto;
+}
+
+@media(min-width:769px) {
+
+    .clients-company-logo {
+        width: 7rem;
+    }
+}
+
+@media(min-width:1025px) {
+    .our-client-para {
+        width: 21rem;
+    }
+
+    .clients-company-logo {
+        width: 10.40056rem;
+    }
 }

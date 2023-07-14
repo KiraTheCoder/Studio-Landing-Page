@@ -2,7 +2,7 @@ import "./ClientsReview.css"
 
 const ClientsReview = () => {
     return (
-        <div className="container justify-content-center clients-review-container">
+        <div className="container justify-content-center clients-review-container mt-5 mt-md-3">
             <div className="row align-items-center text-center ">
                 <div className="col-md-12">
                     <h3>What our happy client say</h3>
@@ -10,14 +10,35 @@ const ClientsReview = () => {
                 </div>
             </div>
 
-            <div className="row align-items-center">
+            <div className="row align-items-center mt-2 mt-md-0">
                 <div className="col-md-4">
                     <img src="/assets/client1.png" alt="" className="clinet-img" />
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 mt-3 mt-md-0">
                     <h4>Matthew Paul</h4>
                     <p>Perfect, very good job! Thank you for the amazing design and work. Really impressed with the high quality and quick turnaround time. Highly recommend.</p>
+
+                    <div className="clinets-svg-container"> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <circle cx="8" cy="8" r="8" fill="#2639ED" />
+                    </svg></span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <circle cx="8" cy="8" r="8" fill="#E7F0FC" />
+                        </svg></span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <circle cx="8" cy="8" r="8" fill="#E7F0FC" />
+                        </svg></span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <circle cx="8" cy="8" r="8" fill="#E7F0FC" />
+                        </svg></span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <circle cx="8" cy="8" r="8" fill="#E7F0FC" />
+                        </svg></span>
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <circle cx="8" cy="8" r="8" fill="#E7F0FC" />
+                        </svg></span>
+                    </div>
                 </div>
+
                 <div className="col-md-4">
                     <div className="client-img-icon-container">
                         <img src="/assets/clinet-icon1.png" alt="client" className="client-img-icon1" />
