@@ -1,0 +1,39 @@
+.service-container .card {
+    width: 19.25rem;
+    height: 23.6875rem;
+    flex-shrink: 0;
+    border-radius: 2.5rem;
+    border: 1px solid #F2F2F2;
+    background: #FFF;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.service-container h4 {
+    width: 10.4375rem;
+    font-size: 1.4rem;
+    font-weight: 550;
+    margin: 2rem;
+}
+
+.service-container .card-text {
+    width: 15.3125rem;
+    line-height: 140%;
+}
+
+.service-icon-container {
+    width: 7.5625rem;
+    height: 7.5625rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #F1F7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-icon {
+    width: 4.625rem;
+    height: 4.625rem;
+    flex-shrink: 0;
+
+}

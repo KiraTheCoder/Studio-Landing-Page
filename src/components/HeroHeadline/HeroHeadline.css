@@ -1,0 +1,9 @@
+.hero-para {
+    width: 29.4375rem;
+}
+
+.hero-img {
+    width: 47.125rem;
+    height: 32rem;
+    flex-shrink: 0;
+}
