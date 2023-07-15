@@ -15,10 +15,7 @@
     margin: 2rem;
 }
 
-.services-card-container {
-    margin-left: -7rem;
-    padding-left: -5rem;
-}
+
 
 .service-container .card-text {
     width: 15.3125rem;
@@ -47,4 +44,18 @@
     height: 4.625rem;
     flex-shrink: 0;
 
+}
+
+@media(min-width:300px) and (max-width:350px)
+{
+    .services-card-container {
+    margin-left: -2.35rem;
+}
+}
+
+@media(min-width:360px) and (max-width:399px)
+{
+    .services-card-container {
+    margin-left: -0.1rem;
+}
 }
