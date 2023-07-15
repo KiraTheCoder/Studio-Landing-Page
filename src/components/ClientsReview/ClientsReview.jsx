@@ -41,6 +41,9 @@ const ClientsReview = () => {
 
                 <div className="col-md-4">
                     <div className="client-img-icon-container">
+                        <svg className="client-img-elem" xmlns="http://www.w3.org/2000/svg" width="184" height="184" viewBox="0 0 184 184" fill="none">
+                            <circle cx="92" cy="92" r="92" fill="#FFF5DB" />
+                        </svg>
                         <img src="/assets/clinet-icon1.png" alt="client" className="client-img-icon1 client-img-icon" />
                         <img src="/assets/clinet-icon2.png" alt="client" className="client-img-icon2 client-img-icon" />
                         <img src="/assets/clinet-icon3.png" alt="client" className="client-img-icon3 client-img-icon" />

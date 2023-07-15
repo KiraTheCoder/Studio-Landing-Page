@@ -47,6 +47,39 @@
 }
 
 
+.service-container-first-col-elem {
+    width: 11.125rem;
+    height: 11.125rem;
+    flex-shrink: 0;
+    border-radius: 6.25rem 0rem 0rem 0rem;
+    background: #FFF5DB;
+    position: absolute;
+    translate: 0rem -16rem;
+    z-index: -1;
+}
+
+.service-container-second-col-elem1 {
+    width: 65.4375rem;
+    height: 38.6875rem;
+    flex-shrink: 0;
+    border-radius: 9.375rem 0rem 0rem 0rem;
+    background: #F4F9FF;
+    position: absolute;
+    translate: -43rem 10rem;
+    z-index: -1;
+}
+
+.service-container-second-col-elem2 {
+    width: 7.5rem;
+    height: 7.5rem;
+    flex-shrink: 0;
+    stroke-width: 8.8px;
+    stroke: #FF007A;
+    position: absolute;
+    translate: 5rem 45rem;
+    z-index: -2;
+}
+
 @media(min-width:767px) and (max-width:980px) {
 
     .service-container .card {

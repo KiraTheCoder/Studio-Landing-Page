@@ -77,6 +77,17 @@
     left: 10%;
 }
 
+.client-img-elem {
+    width: 11.5rem;
+    height: 11.5rem;
+    flex-shrink: 0;
+    fill: #FFF5DB;
+    position: absolute;
+    z-index: 0;
+    translate: 2.5rem 7.5rem;
+}
+
+
 
 @media (min-width:300px) and (max-width:370px) {
 

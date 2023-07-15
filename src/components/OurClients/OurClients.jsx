@@ -1,7 +1,7 @@
 import "./OurClients.css"
 const OurClients = () => {
     return (
-        <div className="container mt-5 mt-md-3 d-sm-flex justify-content-center ">
+        <div className="container mt-5 mt-md-3 mt-xl-5 ">
             <div className="row g-3 g-md-5 ms-4 ms-md-0 align-items-center">
                 <div className="col-md-4 pe-5">
                     <h3>Our Client</h3>

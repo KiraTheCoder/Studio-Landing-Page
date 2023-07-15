@@ -4,3 +4,28 @@
     position: absolute;
     transform: translate(-50%, -50%);
 }
+
+.great-since-video-elem1 {
+    width: 8.0625rem;
+    height: 8.0625rem;
+    flex-shrink: 0;
+    fill: #FFF5DB;
+    position: absolute;
+    translate: 31rem 20rem;
+    z-index: 0;
+}
+
+.great-since-video-elem2 {
+    width: 11.125rem;
+    height: 11.125rem;
+    flex-shrink: 0;
+    border-radius: 0rem 0rem 6.25rem 0rem;
+    background: #EFF1FF;
+    position: absolute;
+    translate: -1rem -2rem;
+    z-index: -1;
+}
+
+.great-video-img {
+    z-index: 1;
+}
