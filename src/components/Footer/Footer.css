@@ -36,3 +36,13 @@
     width: 2.25rem;
     height: 2.25rem;
 }
+
+
+@media (width:768px) {
+
+    .footer-container p {
+        font-size: 0.85rem;
+        line-height: 1.3rem;
+        width: 13rem;
+    }
+}

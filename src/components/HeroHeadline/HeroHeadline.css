@@ -1,5 +1,5 @@
 .hero-para {
-    width: clamp(15rem, 96%, 29.4375rem);
+    width: clamp(15rem, 100%, 29.4375rem);
 }
 
 .hero-img {

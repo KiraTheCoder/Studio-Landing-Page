@@ -1,6 +1,5 @@
 .our-client-para {
     min-width: 12rem;
-    font-size: clamp(1rem, 100%, 2rem);
 }
 
 .clients-company-logo {
