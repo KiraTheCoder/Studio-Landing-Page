@@ -11,7 +11,6 @@
     width: 18rem;
     height: 18rem;
     flex-shrink: 0;
-    background: #FEFEFE;
     border-radius: 31.25rem 0rem 31.25rem 31.25rem;
     box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
 }
@@ -77,6 +76,17 @@
     left: 10%;
 }
 
+.clinet-big-img-elem {
+    width: 7.5rem;
+    height: 7.5rem;
+    flex-shrink: 0;
+    stroke-width: 8.8px;
+    stroke: #FF007A;
+    position: absolute;
+    z-index: -1;
+    translate: -22.5rem 14.5rem;
+}
+
 .client-img-elem {
     width: 11.5rem;
     height: 11.5rem;
@@ -87,6 +97,19 @@
     translate: 2.5rem 7.5rem;
 }
 
+@media(max-width:1430px) {
+    .clinet-big-img-elem {
+        width: 5.5rem;
+        height: 5.5rem;
+        translate: -13.7rem 8.8rem;
+    }
+
+    .client-img-elem {
+        width: 9rem;
+        height: 9rem;
+    }
+
+}
 
 
 @media (min-width:300px) and (max-width:370px) {
@@ -111,12 +134,12 @@
 }
 
 
-@media (min-width:768px) {
+@media (min-width:768px) and (max-width:1040px) {
 
 
     .clinet-img {
-        width: 15rem;
-        height: 15rem;
+        width: 14rem;
+        height: 14rem;
     }
 
     .client-img-icon {
@@ -131,6 +154,18 @@
         padding: 0.5rem;
     }
 
+    .clinet-big-img-elem {
+        width: 5rem;
+        height: 5rem;
+        translate: -13.5rem 8.5rem;
+    }
+
+    .client-img-elem {
+        width: 7rem;
+        height: 7rem;
+        translate: 2rem 5rem;
+
+    }
 
 }
 

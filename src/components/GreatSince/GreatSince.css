@@ -27,5 +27,29 @@
 }
 
 .great-video-img {
-    z-index: 1;
+    z-index: 0;
+}
+
+@media(max-width:1430px) {
+    .great-since-video-elem1 {
+        width: 7rem;
+        height: 7rem;
+        translate: 20rem 12rem;
+    }
+
+    .great-since-video-elem2 {
+        width: 10rem;
+        height: 10rem;
+        translate: -1rem -2rem;
+    }
+}
+
+@media(max-width:1000px) {
+    .great-since-video-elem1 {
+        display: none;
+    }
+
+    .great-since-video-elem2 {
+        display: none;
+    }
 }

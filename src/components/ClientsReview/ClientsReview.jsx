@@ -13,6 +13,9 @@ const ClientsReview = () => {
             <div className="row align-items-center  mt-2 mt-md-0">
                 <div className="col-md-4 clinet-img-container">
                     <img src="/assets/client1.png" alt="" className="clinet-img" />
+                    <svg className="clinet-big-img-elem" xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
+<circle cx="60" cy="60" r="55.6" stroke="#FF007A" stroke-width="8.8"/>
+</svg>
                 </div>
                 <div className="col-md-4 mt-3 mt-md-0 ps-3 ps-md-0">
                     <h4>Matthew Paul</h4>
