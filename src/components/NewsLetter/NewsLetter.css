@@ -1,0 +1,74 @@
+.new-letter-input {
+    width: 29.9375rem;
+    height: 5rem;
+    flex-shrink: 0;
+    border-radius: 3.75rem;
+    border: 1px solid #F1F1F1;
+    background: #FFF;
+    margin-left: -10rem;
+    /* Shadow_1 */
+    box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+}
+
+.new-letter-btn {
+    display: inline-flex;
+    padding: 1.4rem 1.8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 3.75rem;
+    background: #2639ED;
+    color: #FFF;
+    font-family: Averta Demo PE Cutted Demo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.065rem;
+    position: absolute;
+    top: 38.5%;
+    right: 26.5%;
+}
+
+.news-letter-col-container {
+    height: 18.25rem;
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.new-letter-elem1 {
+    width: 74.8125rem;
+    height: 18.25rem;
+    flex-shrink: 0;
+    border-radius: 4.6875rem;
+    background: #F4F9FF;
+    position: absolute;
+    z-index: -1;
+    translate: 20rem 1rem;
+}
+
+.new-letter-elem2 {
+    width: 11.125rem;
+    height: 11.125rem;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+    border-radius: 0rem 0rem 6.25rem 0rem;
+    background: #FFF5DB;
+    position: absolute;
+    z-index: -2;
+    translate: -13.5rem 6.2rem;
+}
+
+.new-letter-elem3 {
+    width: 33.9375rem;
+    height: 18.25rem;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: -1;
+    translate: 1rem 1rem;
+}
