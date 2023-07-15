@@ -76,3 +76,27 @@
     }
 
 }
+
+
+@media(min-width:900px) and (max-width:1000px) {
+    .hero-para {
+        width: 20rem;
+        margin-left: 5rem;
+    }
+
+    .hero-img {
+        width: 23rem;
+        height: clamp(12rem, 100%, 32rem);
+        flex-shrink: 0;
+    }
+
+    .hero-container h3 {
+        margin-left: 5rem;
+
+    }
+
+    .hero-container .btn {
+        margin-left: 5rem;
+
+    }
+}

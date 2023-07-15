@@ -46,3 +46,15 @@
         width: 13rem;
     }
 }
+
+
+@media(min-width:900px) and (max-width:1000px) {
+    .footer-container p {
+        font-size: 0.875rem;
+        line-height: 1.3rem;
+        width: 13rem;
+    }
+
+ 
+
+}

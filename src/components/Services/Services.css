@@ -80,7 +80,7 @@
     z-index: -2;
 }
 
-@media(min-width:767px) and (max-width:980px) {
+@media(min-width:767px) and (max-width:900px) {
 
     .service-container .card {
         width: 13rem;
@@ -130,7 +130,7 @@
 }
 
 
-@media(min-width:951px) and (max-width:1300px) {
+@media(min-width:901px) and (max-width:1300px) {
 
     .service-container .card {
         width: 15rem;
@@ -192,5 +192,21 @@
 @media(min-width:360px) and (max-width:399px) {
     .services-card-container {
         margin-left: -0.1rem;
+    }
+}
+
+
+@media(min-width:900px) and (max-width:1000px) {
+
+    .service-container .card {
+        width: 13.5rem;
+        height: 18rem;
+
+    }
+
+    .service-container .card-text {
+        width: 12rem;
+        line-height: 130%;
+        font-size: 0.8rem;
     }
 }
