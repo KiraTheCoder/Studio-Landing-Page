@@ -27,6 +27,12 @@
     width: 17.875rem;
 }
 
+.copyright-text {
+    font-size: small;
+}
+
 .social-media-icon {
     padding: .5rem;
+    width: 2.25rem;
+    height: 2.25rem;
 }
