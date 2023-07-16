@@ -7,15 +7,16 @@
     padding: 0;
 }
 
+/* for dynamic style */
 .client-img {
     width: 18rem;
     height: 18rem;
     flex-shrink: 0;
     border-radius: 31.25rem 31.25rem 31.25rem 31.25rem;
-    box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 15px 20px 50px 0px rgba(0, 0, 0, 0.20);
 }
 
-/* for dynamic style */
+/*  */
 
 .client-defaultt-img {
     width: 18rem;
@@ -25,7 +26,6 @@
     box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
 }
 
-/*  */
 
 .client-progress-svg-container {
     margin-bottom: -0.5rem;
