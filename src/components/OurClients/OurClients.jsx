@@ -2,7 +2,7 @@ import "./OurClients.css"
 const OurClients = () => {
     return (
         <div className="container mt-5 mt-md-3 mt-xl-5 ">
-            <div className="row g-3 g-md-5 ms-4 ms-md-0 align-items-center">
+            <div className="row g-3 g-md-5 ms-4 ms-md-0 align-items-center" data-aos="zoom-in" data-aos-duration="1300">
                 <div className="col-md-4 pe-5">
                     <h3>Our Client</h3>
                     <p className="our-client-para">Several selected clients, who already believe in our service.</p>

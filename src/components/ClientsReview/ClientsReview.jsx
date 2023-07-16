@@ -4,20 +4,20 @@ const ClientsReview = () => {
     return (
         <div className="container clients-review-container mt-5 mt-md-3">
             <div className="row align-items-center text-center ">
-                <div className="col-md-12">
+                <div className="col-md-12" data-aos="flip-up">
                     <h3>What our happy client say</h3>
                     <p className="client-above-para">Several selected clients, who already believe in our service.</p>
                 </div>
             </div>
 
             <div className="row align-items-center  mt-2 mt-md-0">
-                <div className="col-md-4 clinet-img-container">
+                <div className="col-md-4 clinet-img-container" data-aos="fade-up-left">
                     <img src="/assets/client1.png" alt="" className="clinet-img" />
                     <svg className="clinet-big-img-elem" xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
-<circle cx="60" cy="60" r="55.6" stroke="#FF007A" stroke-width="8.8"/>
-</svg>
+                        <circle cx="60" cy="60" r="55.6" stroke="#FF007A" stroke-width="8.8" />
+                    </svg>
                 </div>
-                <div className="col-md-4 mt-3 mt-md-0 ps-3 ps-md-0">
+                <div className="col-md-4 mt-3 mt-md-0 ps-3 ps-md-0" data-aos="fade-up-left">
                     <h4>Matthew Paul</h4>
                     <p>Perfect, very good job! Thank you for the amazing design and work. Really impressed with the high quality and quick turnaround time. Highly recommend.</p>
 
@@ -43,7 +43,7 @@ const ClientsReview = () => {
                 </div>
 
                 <div className="col-md-4">
-                    <div className="client-img-icon-container">
+                    <div className="client-img-icon-container" data-aos="rotate" data-aos-duration="1200">
                         <svg className="client-img-elem" xmlns="http://www.w3.org/2000/svg" width="184" height="184" viewBox="0 0 184 184" fill="none">
                             <circle cx="92" cy="92" r="92" fill="#FFF5DB" />
                         </svg>

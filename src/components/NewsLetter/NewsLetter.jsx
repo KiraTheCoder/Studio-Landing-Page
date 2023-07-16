@@ -5,7 +5,7 @@ const NewsLetter = () => {
       <div className="row align-items-center ">
 
 
-        <div className="col-md-6">
+        <div className="col-md-6" data-aos="zoom-in">
           <div className="news-letter-col-container">
             <span className="new-letter-elem1"></span>
             <span className="new-letter-elem2"></span>
@@ -16,7 +16,7 @@ const NewsLetter = () => {
         </div>
 
 
-        <div className="col-md-6">
+        <div className="col-md-6" data-aos="zoom-out">
           <div className="news-letter-col-container">
             <span className="new-letter-elem3">
               <svg xmlns="http://www.w3.org/2000/svg" width="497" height="292" viewBox="0 0 497 292" fill="none">
