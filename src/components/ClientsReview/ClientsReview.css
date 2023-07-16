@@ -3,11 +3,11 @@
     line-height: 1.8rem;
 }
 
-.clinet-img-container {
+.client-img-container {
     padding: 0;
 }
 
-.clinet-img {
+.client-img {
     width: 18rem;
     height: 18rem;
     flex-shrink: 0;
@@ -15,13 +15,24 @@
     box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
 }
 
-.clinets-svg-container {
-    margin-top: 2rem;
+/* for dynamic style */
 
+.client-defaultt-img {
+    width: 18rem;
+    height: 18rem;
+    flex-shrink: 0;
+    border-radius: 31.25rem 0rem 31.25rem 31.25rem;
+    box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
 }
 
-.clinets-svg-container span {
-    padding: 0.8rem;
+/*  */
+
+.client-progress-svg-container {
+    margin-bottom: -0.5rem;
+}
+
+.client-progress-svg-container svg {
+    margin: 0.1rem;
 }
 
 
@@ -33,6 +44,12 @@
 
 .client-img-icon-container img {
     position: absolute;
+}
+
+
+
+.client-img-icon-container .active {
+    transform: scale(1.2);
 }
 
 .client-img-icon8 {
@@ -76,7 +93,7 @@
     left: 10%;
 }
 
-.clinet-big-img-elem {
+.client-big-img-elem {
     width: 7.5rem;
     height: 7.5rem;
     flex-shrink: 0;
@@ -98,7 +115,7 @@
 }
 
 @media(max-width:1430px) {
-    .clinet-big-img-elem {
+    .client-big-img-elem {
         width: 5.5rem;
         height: 5.5rem;
         translate: -13.7rem 8.8rem;
@@ -114,6 +131,12 @@
 
 @media (min-width:300px) and (max-width:370px) {
 
+    .client-img {
+        width: 13rem;
+        height: 13rem;
+        margin-left: 3.5rem;
+    }
+
     .client-img-icon {
         width: 20%;
     }
@@ -121,14 +144,25 @@
     .client-img-icon8 {
         width: 30%;
     }
+
+    .client-progress-svg-container {
+        text-align: center;
+    }
 }
 
 @media (min-width:375px) and (max-width:425px) {
-    .clinet-img-container {
+
+    .client-img {
+        width: 13rem;
+        height: 13rem;
+        margin-left: 2.3rem;
+    }
+
+    .client-img-container {
         padding: 0 3rem;
     }
 
-    .clinets-svg-container {
+    .client-progress-svg-container {
         text-align: center;
     }
 }
@@ -137,10 +171,19 @@
 @media (min-width:768px) and (max-width:1040px) {
 
 
-    .clinet-img {
+    .client-img {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    /* for dynamic style */
+
+    .client-defaultt-img {
         width: 14rem;
         height: 14rem;
     }
+
+    /*  */
 
     .client-img-icon {
         width: 20%;
@@ -150,11 +193,11 @@
         width: 32%;
     }
 
-    .clinets-svg-container span {
+    .client-progress-svg-container span {
         padding: 0.5rem;
     }
 
-    .clinet-big-img-elem {
+    .client-big-img-elem {
         width: 5rem;
         height: 5rem;
         translate: -13.5rem 8.5rem;
@@ -171,10 +214,18 @@
 
 @media (min-width:1200px) {
 
-
-    .clinet-img {
+    .client-defaultt-img {
         width: 24.3125rem;
         height: 24.3125rem;
     }
 
+    /* 
+    Dynamic style  
+     */
+    .client-img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    /*  */
 }
