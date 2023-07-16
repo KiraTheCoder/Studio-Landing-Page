@@ -11,8 +11,8 @@
     width: 18rem;
     height: 18rem;
     flex-shrink: 0;
-    border-radius: 31.25rem 0rem 31.25rem 31.25rem;
-    box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 31.25rem 31.25rem 31.25rem 31.25rem;
+    box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.20);
 }
 
 /* for dynamic style */
@@ -101,7 +101,7 @@
     stroke: #FF007A;
     position: absolute;
     z-index: -1;
-    translate: -22.5rem 14.5rem;
+    translate: -22rem 14rem;
 }
 
 .client-img-elem {
@@ -130,6 +130,11 @@
 
 
 @media (min-width:300px) and (max-width:370px) {
+    .client-big-img-elem {
+        width: 4rem;
+        height: 4rem;
+        translate: -13rem 8.8rem;
+    }
 
     .client-img {
         width: 13rem;
@@ -151,6 +156,12 @@
 }
 
 @media (min-width:375px) and (max-width:425px) {
+
+    .client-big-img-elem {
+        width: 4.7rem;
+        height: 4.7rem;
+        translate: -13.2rem 8.5rem;
+    }
 
     .client-img {
         width: 13rem;

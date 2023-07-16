@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="container footer-container mt-md-4 mt-md-5">
             <div className="row g-4 ps-4  mt-lg-5 ">
                 <div className="col-12 col-md-4" data-aos="fade-right">
-                    <span className="Footer-A-text">A</span> <span className="Footer-studio-text"> + Studio</span>
+                    <span className="Footer-A-text">A+</span> <span className="Footer-studio-text"> Studio</span>
                     <p>Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.</p>
                     <img src="/assets/facebook.png" alt="social-icons" className="social-media-icon" />
                     <img src="/assets/twitter.png" alt="social-icons" className="social-media-icon" />
@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
             <div className="row d-flex align-items-center justify-content-center">
                 <div className="col-12 text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <span className="copyright-text">Copyright © 2023 Kiran Kumar </span>
+                    <span className="copyright-text">Copyright © 2023-24 Kiran Kumar </span>
                 </div>
             </div>
         </div>
