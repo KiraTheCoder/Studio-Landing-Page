@@ -247,7 +247,7 @@
 /* Switch checked */
 .review-switcher {
 
-    width: 5rem;
-    height: 2rem;
-    margin: "0.2em 3rem 0 0";
+    width:80%;
+    height: 1.5rem;
+    margin: 0.2em 3rem 0 0;
 }
