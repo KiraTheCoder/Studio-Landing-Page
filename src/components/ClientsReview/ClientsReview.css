@@ -240,3 +240,14 @@
 
     /*  */
 }
+
+
+
+
+/* Switch checked */
+.review-switcher {
+
+    width: 5rem;
+    height: 2rem;
+    margin: "0.2em 3rem 0 0";
+}
