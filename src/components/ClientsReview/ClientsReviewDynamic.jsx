@@ -62,7 +62,7 @@ const ClientsReview = () => {
 
 
     return (
-        <div className="container clients-review-container mt-5 mt-md-3">
+        <div className="container clients-review-container mt-3 mt-md-3">
             <div className="row align-items-center text-center ">
                 <div className="col-md-12" data-aos="flip-up">
                     <h3>What our happy client say</h3>
