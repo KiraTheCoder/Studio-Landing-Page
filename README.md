@@ -16,7 +16,7 @@ The project aims to showcase my skills in web development using React and Bootst
 ## Installation
 
 1. Clone the repository:
-   `git clone https://github.com/Kiranprogrammer/Studio-Landing-Page`
+   `git clone https://github.com/KiraTheCoder/Studio-Landing-Page`
 
 2. Navigate to the project directory:
    `cd Studio-Landing-Page`
